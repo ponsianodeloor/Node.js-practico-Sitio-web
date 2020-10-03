@@ -1,0 +1,19 @@
+{
+  "name": "node_practico_sitio_web",
+  "version": "1.0.0",
+  "description": "Node Practico sitio web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponsianodeloor/Node.js-practico-Sitio-web.git"
+  },
+  "author": "Ponsiano De Loor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ponsianodeloor/Node.js-practico-Sitio-web/issues"
+  },
+  "homepage": "https://github.com/ponsianodeloor/Node.js-practico-Sitio-web#readme"
+}
