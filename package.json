@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ponsianodeloor/Node.js-practico-Sitio-web/issues"
   },
-  "homepage": "https://github.com/ponsianodeloor/Node.js-practico-Sitio-web#readme"
+  "homepage": "https://github.com/ponsianodeloor/Node.js-practico-Sitio-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
