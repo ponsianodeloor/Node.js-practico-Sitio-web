@@ -37,7 +37,13 @@ app.get('/tienda/comprar/:color', function( peticion, respuesta){
         color : peticion.params.color,
         camiseta: datos_de_camiseta
     });
-    });
+});
+
+app.use(function (peticion, respuesta){
+    respuesta.status(400);
+    let URL_error = peticion.originalUrl;
+    respuesta.render('404.pug', {texto_error: URL_error});
+});
 
 
  app.listen( 3000 , function(){
