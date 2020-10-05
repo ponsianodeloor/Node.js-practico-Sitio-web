@@ -1,0 +1,32 @@
+doctype html
+html(lang = "es")
+head
+    title Tienda Virtual de Camisetas
+    link(rel="stylesheet", href="/stylesheets/estilos.css")
+body
+    h1 Tienda virtual de camisetas
+    div(class="contenedor")
+        p Nuestra tienda de camistetas tiene las mejores camisetas de la internet, satisfacción 100% garantizada
+        
+        each camiseta in camisetas
+            div.item
+                h2 Camiseta #{camiseta.color}
+                img(src = camiseta.imagen)
+                a(class="comprar" href="tienda/comprar/" + camiseta.color) Comprar
+        
+        //-div(class="item")
+            img(src="/images/camiseta1.png")
+            a(class="comprar" href="tienda.html") Comprar
+
+        //-div(class="item")
+            img(src="/images/camiseta2.png")
+            a(class="comprar" href="tienda.html") Comprar
+
+        //-div(class="item")
+            img(src="/images/camiseta3.png")
+            a(class="comprar" href="tienda.html") Comprar
+
+        //-div(class="item")
+            img(src="/images/camiseta4.png")
+            a(class="comprar" href="tienda.html") Comprar        
+        
